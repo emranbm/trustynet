@@ -206,11 +206,21 @@
             </div>
         </div>
 
-        <button class="cta" onclick="alert('Coming soon! Stay tuned for updates.')">Coming Soon</button>
+        <button class="cta" id="ctaButton">Coming Soon</button>
 
         <footer>
-            <p>&copy; 2026 TrustyNet. Building networks of trust.</p>
+            <p>&copy; <span id="year"></span> TrustyNet. Building networks of trust.</p>
         </footer>
     </div>
+
+    <script>
+        // Set dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Handle CTA button click
+        document.getElementById('ctaButton').addEventListener('click', function() {
+            alert('Coming soon! Stay tuned for updates.');
+        });
+    </script>
 </body>
 </html>
