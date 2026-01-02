@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TrustyNet - A network of trust connecting people you can rely on">
+    <meta name="description" content="{{ page.description | default: site.description }}">
     <meta name="keywords" content="trust, network, connections, reliable, trustworthy">
-    <title>TrustyNet - A Network of Who We Trust</title>
+    <title>{{ page.title | default: site.title }}</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🤝</text></svg>">
     <style>
         * {
@@ -175,40 +175,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">🤝</div>
-        <h1>TrustyNet</h1>
-        <p class="tagline">A Network of Who We Trust</p>
-        
-        <div class="description">
-            <p>
-                In a world full of connections, trust is everything. TrustyNet helps you build and maintain 
-                a network of people you can truly rely on.
-            </p>
-        </div>
-
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon">🔒</div>
-                <div class="feature-title">Secure</div>
-                <div class="feature-description">Your trust network is private and protected</div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🌐</div>
-                <div class="feature-title">Connected</div>
-                <div class="feature-description">Build meaningful connections that matter</div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">✨</div>
-                <div class="feature-title">Simple</div>
-                <div class="feature-description">Easy to use, focused on what matters</div>
-            </div>
-        </div>
-
-        <button class="cta" id="ctaButton">Coming Soon</button>
-
-        <footer>
-            <p>&copy; <span id="year"></span> TrustyNet. Building networks of trust.</p>
-        </footer>
+        {{ content }}
     </div>
 
     <script>
