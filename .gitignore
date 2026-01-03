@@ -1,3 +1,9 @@
 _site/
 .jekyll-cache/
 .sass-cache/
+
+# Bot configuration and data
+bot/config.py
+bot/trust_data.json
+bot/__pycache__/
+bot/*.pyc
