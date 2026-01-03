@@ -2,12 +2,16 @@
 """
 Simple tests for TrustyNet Bot storage functionality.
 Tests only the TrustStorage class without requiring telegram dependencies.
+
+NOTE: TrustStorage class is duplicated here to allow testing without
+installing python-telegram-bot dependency. This is a standalone test file.
 """
 
 import json
 import os
 from pathlib import Path
 from datetime import datetime
+from typing import Dict, List
 
 
 class TrustStorage:
@@ -72,11 +76,11 @@ class TrustStorage:
         self._save_data()
         print(f"Added trust: {truster_name} trusts {trustee_name} in group {group_id}")
     
-    def get_group_trusts(self, group_id: int):
+    def get_group_trusts(self, group_id: int) -> List[Dict]:
         """Get all trust relationships for a group."""
         return [t for t in self.data["trusts"] if t["group_id"] == group_id]
     
-    def get_user_trusts(self, user_id: int):
+    def get_user_trusts(self, user_id: int) -> List[Dict]:
         """Get all trusts where user is the truster."""
         return [t for t in self.data["trusts"] if t["truster_id"] == user_id]
 
