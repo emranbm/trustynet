@@ -3,6 +3,14 @@ A network of who we trust
 
 **Core Value:** Trust!
 
+## Components
+
+### 🌐 Website
+The main TrustyNet website showcasing the project.
+
+### 🤖 Telegram Bot
+A Telegram bot (`@trustynet_bot`) that records trust relationships in groups. See [`bot/README.md`](bot/README.md) for details.
+
 ## Editing the Site
 
 The site content is now in Markdown format for easier editing:
