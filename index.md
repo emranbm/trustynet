@@ -1,42 +1,47 @@
 ---
 layout: default
-title: TrustyNet - A Network of Who We Trust
-description: TrustyNet - A network of trust connecting people you can rely on
+title: تراستی‌نت - شبکه‌ای از کسانی که به آنها اعتماد داریم
+description: تراستی‌نت - شبکه‌ای از اعتماد که افراد قابل اتکا را به هم متصل می‌کند
 ---
 
 <div class="logo">🤝</div>
 
-# TrustyNet
+# تراستی‌نت
 
-<p class="tagline">A Network of Who We Trust</p>
+<p class="tagline">شبکه‌ای از کسانی که به آنها اعتماد داریم</p>
 
 <div class="description">
 <p>
-In a world full of connections, trust is everything. TrustyNet helps you build and maintain 
-a network of people you can truly rely on.
+<strong>ارزش اصلی ما: حسن نیت</strong>
+</p>
+<p>
+یعنی باور داریم آدمهای اطرافمون خیرمون رو میخوان و همچنین ما هم خیر آدمهای اطرافمون رو میخوایم.
+</p>
+<p>
+در دنیایی پر از ارتباطات، اعتماد همه چیز است. تراستی‌نت به شما کمک می‌کند تا شبکه‌ای از افرادی که واقعاً می‌توانید به آنها تکیه کنید، بسازید و حفظ کنید.
 </p>
 </div>
 
 <div class="features">
 <div class="feature">
 <div class="feature-icon">🔒</div>
-<div class="feature-title">Secure</div>
-<div class="feature-description">Your trust network is private and protected</div>
+<div class="feature-title">امن</div>
+<div class="feature-description">شبکه اعتماد شما خصوصی و محافظت شده است</div>
 </div>
 <div class="feature">
 <div class="feature-icon">🌐</div>
-<div class="feature-title">Connected</div>
-<div class="feature-description">Build meaningful connections that matter</div>
+<div class="feature-title">متصل</div>
+<div class="feature-description">ارتباطات معناداری بسازید که اهمیت دارند</div>
 </div>
 <div class="feature">
 <div class="feature-icon">✨</div>
-<div class="feature-title">Simple</div>
-<div class="feature-description">Easy to use, focused on what matters</div>
+<div class="feature-title">ساده</div>
+<div class="feature-description">استفاده آسان، متمرکز بر آنچه مهم است</div>
 </div>
 </div>
 
-<button class="cta" id="ctaButton">Coming Soon</button>
+<button class="cta" id="ctaButton">به زودی</button>
 
 <footer>
-<p>&copy; <span id="year"></span> TrustyNet. Building networks of trust.</p>
+<p>&copy; <span id="year"></span> تراستی‌نت. ساخت شبکه‌های اعتماد.</p>
 </footer>
