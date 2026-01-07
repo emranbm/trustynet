@@ -1,4 +1,4 @@
-# Configuration file for TrustyNet Telegram Bot
+# Configuration file for SafeFolks Telegram Bot
 # Copy this file to config.py and fill in your bot token
 
 # Get your bot token from @BotFather on Telegram

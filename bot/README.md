@@ -1,10 +1,10 @@
-# TrustyNet Telegram Bot
+# SafeFolks Telegram Bot
 
 A Telegram bot that records trust relationships in groups. When added to a group, it records that the group owner trusts all other members.
 
 ## Bot Username
 
-`@trustynet_bot`
+`@safefolks_bot`
 
 ## Features
 
@@ -33,8 +33,8 @@ A Telegram bot that records trust relationships in groups. When added to a group
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/emranbm/trustynet.git
-cd trustynet/bot
+git clone https://github.com/emranbm/safefolks.git
+cd safefolks/bot
 ```
 
 2. Install dependencies:
@@ -55,7 +55,7 @@ BOT_TOKEN = "your_bot_token_here"
 ### Running the Bot
 
 ```bash
-python trustynet_bot.py
+python safefolks_bot.py
 ```
 
 The bot will start and listen for updates. Keep this process running to keep the bot active.
@@ -71,7 +71,7 @@ The bot will start and listen for updates. Keep this process running to keep the
 
 ### Adding to a Group
 
-1. Start a chat with `@trustynet_bot`
+1. Start a chat with `@safefolks_bot`
 2. Add the bot to your group
 3. Make the bot an admin (required to see member list)
 4. Use `/scan` to initialize the group
@@ -120,7 +120,7 @@ Trust data is stored in `trust_data.json` in the following format:
 
 ```
 bot/
-├── trustynet_bot.py       # Main bot script
+├── safefolks_bot.py       # Main bot script
 ├── config.example.py      # Example configuration
 ├── config.py              # Your configuration (not in git)
 ├── requirements.txt       # Python dependencies
@@ -140,14 +140,14 @@ Example systemd service:
 
 ```ini
 [Unit]
-Description=TrustyNet Telegram Bot
+Description=SafeFolks Telegram Bot
 After=network.target
 
 [Service]
 Type=simple
 User=your-user
-WorkingDirectory=/path/to/trustynet/bot
-ExecStart=/usr/bin/python3 trustynet_bot.py
+WorkingDirectory=/path/to/safefolks/bot
+ExecStart=/usr/bin/python3 safefolks_bot.py
 Restart=always
 
 [Install]
@@ -156,7 +156,7 @@ WantedBy=multi-user.target
 
 ## License
 
-Part of the TrustyNet project.
+Part of the SafeFolks project.
 
 ## Contributing
 
