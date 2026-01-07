@@ -1,5 +1,5 @@
 # safefolks
-A network of who we trust
+An integration of who we trust!
 
 ## Core Values
 - Trust
