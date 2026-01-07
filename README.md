@@ -10,7 +10,7 @@ A network of who we trust
 ### 🌐 Website
 The main SafeFolks website showcasing the project.
 
-### 🤖 Telegram Bot
+### 🤖 Telegram Bot (Not Released)
 A Telegram bot (`@safefolks_bot`) that records trust relationships in groups. See [`bot/README.md`](bot/README.md) for details.
 
 ## Editing the Site
