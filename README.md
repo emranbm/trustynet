@@ -1,7 +1,9 @@
 # trustynet
 A network of who we trust
 
-**Core Value:** Trust!
+## Core Values
+- Trust
+- Integrity
 
 ## Components
 
