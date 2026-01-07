@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple tests for TrustyNet Bot storage functionality.
+Simple tests for SafeFolks Bot storage functionality.
 Tests only the TrustStorage class without requiring telegram dependencies.
 
 NOTE: TrustStorage class is duplicated here to allow testing without
@@ -202,7 +202,7 @@ def test_get_group_trusts():
 
 def run_tests():
     """Run all tests."""
-    print("Running TrustyNet Bot Storage Tests...\n")
+    print("Running SafeFolks Bot Storage Tests...\n")
     
     try:
         test_storage_initialization()

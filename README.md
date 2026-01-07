@@ -1,4 +1,4 @@
-# trustynet
+# safefolks
 A network of who we trust
 
 ## Core Values
@@ -8,10 +8,10 @@ A network of who we trust
 ## Components
 
 ### 🌐 Website
-The main TrustyNet website showcasing the project.
+The main SafeFolks website showcasing the project.
 
 ### 🤖 Telegram Bot
-A Telegram bot (`@trustynet_bot`) that records trust relationships in groups. See [`bot/README.md`](bot/README.md) for details.
+A Telegram bot (`@safefolks_bot`) that records trust relationships in groups. See [`bot/README.md`](bot/README.md) for details.
 
 ## Editing the Site
 

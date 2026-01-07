@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TrustyNet Telegram Bot
+SafeFolks Telegram Bot
 
 This bot records trust relationships in Telegram groups.
 When added to a group, it records that the group owner trusts all other members.
@@ -116,7 +116,7 @@ storage = TrustStorage(DATA_FILE)
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle the /start command."""
     await update.message.reply_text(
-        "👋 Welcome to TrustyNet Bot!\n\n"
+        "👋 Welcome to SafeFolks Bot!\n\n"
         "Add me to a group to start recording trust relationships.\n"
         "I will record that the group owner trusts all members.\n\n"
         "Commands:\n"
@@ -129,7 +129,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle the /help command."""
     await update.message.reply_text(
-        "🤝 TrustyNet Bot Help\n\n"
+        "🤝 SafeFolks Bot Help\n\n"
         "This bot records trust relationships in Telegram groups.\n\n"
         "How it works:\n"
         "1. Add the bot to your group\n"
@@ -329,7 +329,7 @@ def main():
     application.add_handler(ChatMemberHandler(chat_member_updated))
     
     # Start the bot
-    logger.info("Starting TrustyNet Bot...")
+    logger.info("Starting SafeFolks Bot...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
